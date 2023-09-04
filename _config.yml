@@ -2,19 +2,16 @@ plugins:
   - jekyll-sitemap
 
 # SEO Stuff
-author: Fosstodon
-description: Fosstodon Hub is an informational site tied to Fosstodon, the largest FOSS focussed Mastodon instance on the fediverse.
-lang: en
-locale: en_GB
-url: "https://hub.fosstodon.org"
-git_web_base: https://github.com/fosstodon/hub/blob/HEAD/
+author: salif
+title: Блогът на Салиф
+description: Блог за програмиране, технологии, изкуствени езици и всичко останало.
+lang: bg
+locale: bg_BG
+url: "https://blog.salif.eu"
+git_web_base: https://github.com/salif/blog.salif.eu/blob/HEAD/
 baseurl: ""
 permalink: :title
 
 # RSS feeds
 feed:
   posts_limit: 20
-
-# Netlify redirects
-include:
-  - _redirects

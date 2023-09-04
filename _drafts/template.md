@@ -1,6 +1,7 @@
 ---
-title: Something
-author: kev mike cooper ***CHANGE THIS***
+title:
 description:
+comments: true
+author: salif
 layout: post
 ---

@@ -1,8 +1,7 @@
-/* Import the main SimpleCSS stylesheet */
-@import url("https://cdn.simplecss.org/simple.min.css");
-
 /* Overwrite simple.css colours with Mastodon colours */
 :root {
+  --sans-font: -apple-system, BlinkMacSystemFont, "Alegreya Sans", "Noto Sans", Roboto, sans-serif;
+  --serif-font: 'Alegreya', serif;
   --bg: #282d37;
   --accent-bg: #1F232B;
   --text: #d9e1e8;
@@ -14,6 +13,25 @@
   --preformatted: #9baec8;
   --marked: #79b9e7;
   --disabled: #282d37;
+}
+
+header, main, footer {
+  font-family: var(--serif-font);
+}
+
+header nav {
+  font-weight: 500;
+}
+
+main {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+footer {
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 /* Override Simple.css Dark theme */
@@ -42,13 +60,15 @@ nav a.current:hover {
 }
 
 .post-description {
-  font-size: 1rem;
+  font-size: 1.1rem;
+  line-height: 1.5;
   font-style: italic;
 }
 
 .post-meta {
   color: var(--text-light);
-  font-size: .9rem;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 .blog-item {
@@ -107,52 +127,6 @@ nav a.current:hover {
   text-decoration-style: dotted;
 }
 
-/* Format the team banners */
-.team-banner {
-  background: var(--accent-bg);
-  border: 1px solid var(--border);
-  border-radius: 4px;
-  position: relative;
-  margin: 1rem .5rem 1rem 0;
-  padding: 1rem;
-  width: 48.5%;
-  height: 400px;
-  float: left;
-}
-
-/* Make full width on mobile screens */
-@media only screen and (max-width: 700px)  {
-  .team-banner {
-    float: none;
-    margin: .5rem auto;
-    width: 90%;
-    height: auto;
-  }
-  .team-banner span {
-    position: relative;
-  }
-}
-
-.team-banner p {
-  margin-bottom: .5em;
-  font-size: 1rem;
-}
-
-.team-title {
-  font-size: 1.4em !important;
-  font-weight: bold;
-  margin: 0;
-}
-
-.team-avatar {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 90px;
-  border-radius: 50%;
-  padding: 1rem;
-}
-
 .sub-heading {
   font-size: 1.5rem;
   font-style: italic;
@@ -173,10 +147,6 @@ nav a.current:hover {
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
-}
-
-.verification-links {
-  display: none;
 }
 
 hr {

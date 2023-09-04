@@ -2,10 +2,9 @@
 layout: default
 ---
 <h1 class="post-title">{{ page.title }}</h1>
-<!-- Insert author details -->
 {% assign author = site.data.authors[page.author] %}
 {% if author %}
-    <p class="post-meta">Written by: <a target="blank" href="{{ author.url }}">{{ author.name }}</a> &nbsp;|&nbsp; {{ page.date | date_to_string }}</p>
+    <p class="post-meta">Написано от: <a target="blank" href="{{ author.url }}">{{ author.name }}</a> &nbsp;|&nbsp; {{ page.date | date: "%d.%m.%Y" }}</p>
 {% endif %}
 
 <p class="sub-heading">{{ page.description }}</p>
@@ -13,3 +12,7 @@ layout: default
 <hr style="width:50%; margin: 3rem auto;"/>
 
 {{ content }}
+
+{% if page.comments %}
+{% include comments.html %}
+{% endif %}
