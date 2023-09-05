@@ -10,7 +10,7 @@ locale: bg_BG
 url: "https://blog.salif.eu"
 git_web_base: https://github.com/salif/blog.salif.eu/blob/HEAD/
 baseurl: ""
-permalink: :title
+permalink: /:categories/:title/
 
 # RSS feeds
 feed:
