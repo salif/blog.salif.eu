@@ -7,5 +7,7 @@ layout: default
 # Test
 
 <script>
-    window.goatcounter.visit_count({append: 'body'});
+    document.body.onload=function() {
+        window.goatcounter.visit_count({append: 'body'});
+    }
 </script>
