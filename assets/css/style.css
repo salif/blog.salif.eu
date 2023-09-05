@@ -34,6 +34,10 @@ footer {
   font-weight: 500;
 }
 
+#disqus_thread {
+  all: initial;
+}
+
 /* Override Simple.css Dark theme */
 @media (prefers-color-scheme: dark) {
   img, video {

@@ -9,10 +9,21 @@ layout: default
 
 <p class="sub-heading">{{ page.description }}</p>
 
-<hr style="width:50%; margin: 3rem auto;"/>
+<hr style="width:50%; margin: 3rem auto;" />
 
 {{ content }}
 
+<hr style="width:50%; margin: 3rem auto; margin-bottom: 1rem;" />
+
+<header><nav>
+<a id="button_top">Върни се горе</a>
 {% if page.comments %}
-{% include comments.html %}
+<a id="button_comments" class="link">Виж Коментарите</a>
 {% endif %}
+</nav></header>
+
+{% include post_buttons.html %}
+
+<section id="comments_container" style="display: none;">
+    <noscript>Позволете JavaScript за да видите <a href="https://disqus.com/?ref_noscript"> коментарите.</a></noscript>
+</section>

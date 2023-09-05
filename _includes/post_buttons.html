@@ -1,0 +1,22 @@
+
+<script>
+	var disqus_config = function () {
+	this.page.url = document.querySelector("link[rel='canonical']").getAttribute("href");
+	this.page.identifier = "{{ page.url }}";
+	};
+	document.getElementById("button_top").addEventListener("click", function(){
+		document.getElementById("top").scrollIntoView(true);
+	});
+	document.getElementById("button_comments").addEventListener("click", function(){
+		var cc = document.getElementById("comments_container");
+		cc.style.display = "block";
+		var cd = document.createElement('div');
+		cd.setAttribute("id", "disqus_thread");
+		var cs = document.createElement('script');
+		cs.src = 'https://blog-salif-eu.disqus.com/embed.js';
+		cs.setAttribute('data-timestamp', +new Date());
+		cc.appendChild(cd);
+		cc.appendChild(cs);
+		this.style.display="none";
+	});
+</script>
