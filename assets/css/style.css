@@ -1,18 +1,8 @@
 /* Overwrite simple.css colours with Mastodon colours */
 :root {
-  --sans-font: -apple-system, BlinkMacSystemFont, "Alegreya Sans", "Noto Sans", Roboto, sans-serif;
+  --sans-font: -apple-system, BlinkMacSystemFont, "Noto Sans", "Ubuntu", sans-serif;
   --serif-font: 'Alegreya', serif;
-  --bg: #282d37;
-  --accent-bg: #1F232B;
-  --text: #d9e1e8;
-  --text-light: #9baec8;
   --dark-red: #951818;
-  --border: #9baec8;
-  --accent: #858AFA;
-  --code: #F06292;
-  --preformatted: #9baec8;
-  --marked: #79b9e7;
-  --disabled: #282d37;
 }
 
 header, main, footer {
@@ -36,6 +26,18 @@ footer {
 
 /* Override Simple.css Dark theme */
 @media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #282d37;
+    --accent-bg: #1F232B;
+    --text: #d9e1e8;
+    --text-light: #9baec8;
+    --border: #9baec8;
+    --accent: #858AFA;
+    --code: #F06292;
+    --preformatted: #9baec8;
+    --marked: #79b9e7;
+    --disabled: #282d37;
+  }
   img, video {
     opacity: 1;
   }
@@ -136,17 +138,6 @@ nav a.current:hover {
 
 .center {
   text-align: center;
-}
-
-.icon {
-  vertical-align: sub;
-  padding-right: .25rem;
-  display: inline-block;
-  width: 1.2em;
-  height: 1em;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
 }
 
 hr {

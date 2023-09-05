@@ -4,20 +4,29 @@
 	this.page.url = document.querySelector("link[rel='canonical']").getAttribute("href");
 	this.page.identifier = "{{ page.url }}";
 	};
-	document.getElementById("button_top").addEventListener("click", function(){
+	document.getElementById("button_top").addEventListener("click", function(e){
+		e.preventDefault();
 		document.getElementById("top").scrollIntoView(true);
+		return false;
 	});
-	document.getElementById("button_comments").addEventListener("click", function(){
+	document.getElementById("button_comments").addEventListener("click", function(e){
+		e.preventDefault();
 		var cc = document.getElementById("comments_container");
 		cc.style.display = "block";
 		var cd = document.createElement('div');
 		cd.setAttribute("id", "disqus_thread");
 		cd.style.all = "initial";
 		var cs = document.createElement('script');
-		cs.src = 'https://blog-salif-eu.disqus.com/embed.js';
+		cs.src = 'https://{{ site.disqus_code }}.disqus.com/embed.js';
 		cs.setAttribute('data-timestamp', +new Date());
 		cc.appendChild(cd);
 		cc.appendChild(cs);
 		this.style.display="none";
+		return false;
+	});
+	document.getElementById("button_print").addEventListener("click", function(e){
+		e.preventDefault();
+		window.print();
+		return false;
 	});
 </script>

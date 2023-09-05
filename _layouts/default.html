@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="bg">
+<html lang="{{ site.lang }}">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -29,12 +29,8 @@
 
     <footer>
       <p>
-        <a href="https://blog-salif-eu.translate.goog{{ page.url | prepend: site.baseurl }}?_x_tr_sl=bg&_x_tr_tl=en" lang="en">Translate</a>
-      </p>
-
-      <p>
         <a href="/feed.xml">RSS емисия</a>
-        {% if site.git_web_base %}• <a href="{{ site.git_web_base }}{{ page.path }}">Git код</a>{% endif %}
+        {% if site.git_web_base %}• <a href="{{ site.git_web_base }}{{ page.path }}">Преглед на кода</a>{% endif %}
       </p>
     </footer>
     {% include counter.html %}

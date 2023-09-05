@@ -3,14 +3,17 @@ plugins:
 
 # SEO Stuff
 author: salif
-title: Блогът на Салиф
-description: Блог за програмиране, технологии, изкуствени езици и всичко останало.
+title: "Блогът на Салиф"
+description: "Блог за програмиране, технологии, изкуствени езици и всичко останало."
 lang: bg
 locale: bg_BG
 url: "https://blog.salif.eu"
-git_web_base: https://github.com/salif/blog.salif.eu/blob/HEAD/
+git_web_base: "https://github.com/salif/blog.salif.eu/blob/HEAD/"
 baseurl: ""
 permalink: /:categories/:title/
+goatcounter_code: "blosaleu"
+translate_code: "blog-salif-eu"
+disqus_code: "blog-salif-eu"
 
 # RSS feeds
 feed:
