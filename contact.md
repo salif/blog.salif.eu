@@ -8,9 +8,9 @@ layout: default
 
 <details open>
   <summary>По имейл</summary>
-  <p>Използвайте този имейл адрес, за да се свържете с мен:</p>
+  <p>Ще откриете моя имейл адрес на следния адрес:</p>
 
-  <p><b><a href="mailto:mail@salif.eu">mail@salif.eu</a></b></p>
+  <p><b><a href="https://salif.eu/bg/email">salif.eu/bg/email</a></b></p>
 </details>
 
 <details>
