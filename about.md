@@ -2,6 +2,7 @@
 title: Относно | Блогът на Салиф
 description: Относно този блог
 permalink: /относно/
+comments: false
 layout: default
 ---
 # Относно този блог
@@ -10,11 +11,11 @@ layout: default
 
 Блогът функционира благодарение на [GitHub Pages](https://pages.github.com/), [Jekyll](https://jekyllrb.com) и [Simple.css](https://simplecss.org).
 
-Изходният код е достъпен на следния адрес: [github.com/salif/blog.salif.eu](https://github.com/salif/blog.salif.eu). Написан е предимно на Markdown и HTML.
+Изходният код е достъпен на следния адрес: [github.com/salif/blog.salif.eu](https://github.com/salif/blog.salif.eu). Написан е на Markdown и HTML.
 Използва CSS, JavaScript и шрифта Alegreya, поддържа светла и тъмна тема, темата следва настройките на браузъра. 
 Блогът е направен на основата на [hub.fosstodon.org](https://hub.fosstodon.org/).
 
-За броене на посещенията използвам GoatCounter: [blosaleu.goatcounter.com](https://blosaleu.goatcounter.com/), а за коментарите [Disqus](https://disqus.com/home/forums/blog-salif-eu/?l=bg).
+За брояч на посещенията използвам [GoatCounter](https://blosaleu.goatcounter.com/), а за коментарите [Disqus](https://disqus.com/home/forums/blog-salif-eu/?l=bg).
 
 Изображенията в публикациите ще качвам в [postimages.org](https://postimages.org) или [cubeupload.com](https://cubeupload.com/).
 
@@ -24,7 +25,7 @@ layout: default
 
 * възможност за търсене в сайта
 * категории и тагове
-* приблизително време нужно за прочитане на публикация
+* информация за дължина на публикация и приблизително време за прочитане
 * настройки за шрифта, темата, изключване на брояча на посещенията
 * възможност читателите да изпращат идеи за нови публикации
 * blogroll и публикуване на чужди публикации в този блог
@@ -36,3 +37,5 @@ layout: default
 * страница с JS игра
 * анкети
 * реклами
+
+{% include post_buttons.html %}

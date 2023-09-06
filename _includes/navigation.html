@@ -2,7 +2,7 @@
   {% for item in site.data.navigation %}
   <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
   {% endfor %}
-  <a href="https://{{ site.translate_code }}.translate.goog{{ page.url | prepend: site.baseurl }}?_x_tr_sl={{ site.lang }}&_x_tr_tl=auto"
+  <a href="https://{{ site.translate_code }}.translate.goog{{ page.url | prepend: site.baseurl }}?_x_tr_sl={{ site.lang }}&_x_tr_tl=en"
    target="_blank" title="Translate this page">
     <svg xmlns="http://www.w3.org/2000/svg" style="display: inline-block; width: 1rem; vertical-align: sub;" viewBox="0 0 24 24" 
     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path class="st0" 

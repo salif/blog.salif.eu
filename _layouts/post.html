@@ -13,18 +13,7 @@ layout: default
 
 {{ content }}
 
-<hr style="width:50%; margin: 3rem auto;" />
-<header><nav>
-<a id="button_top" href="#" title="Към началото на страницата">Нагоре</a>
-{% if page.comments %}
-<a id="button_comments" href="#">Към коментарите</a>
-{% endif %}
-<a href="https://www.addtoany.com/share#url={{ page.url | prepend: site.baseurl | prepend: site.url }}" target="_blank" title="Споделяне на публикацията">Споделяне</a>
-<a id="button_print" href="#" title="Оптечатване на страницата">Отпечатване</a>
-</nav></header>
-
 {% include post_buttons.html %}
 
 <noscript>Позволете JavaScript за да видите <a href="https://disqus.com/?ref_noscript">коментарите.</a></noscript>
-<section id="comments_container" style="display: none;">
-</section>
+<section id="comments_container" style="display: none;"></section>
