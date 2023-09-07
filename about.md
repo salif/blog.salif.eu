@@ -19,7 +19,7 @@ layout: default
 
 Изображенията в публикациите ще качвам в [postimages.org](https://postimages.org) или [cubeupload.com](https://cubeupload.com/).
 
-Има възможност за абониране за бъдещи публикации чрез RSS: [feed.xml](/feed.xml), не съм го тествал, но се надявам да работи.
+Има възможност за абониране за бъдещи публикации чрез [RSS](/абониране), не съм го тествал, но се надявам да работи.
 
 Планирани бъдещи функционалности в блога:
 
@@ -39,3 +39,4 @@ layout: default
 * реклами
 
 {% include post_buttons.html %}
+{% include verification.html %}

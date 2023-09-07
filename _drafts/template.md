@@ -2,8 +2,8 @@
 title:
 description:
 category: 
-permalink: /:categories//
+permalink: /:categories/:title/
 comments: true
-author: salif
+author: main
 layout: post
 ---
