@@ -45,3 +45,12 @@
   font-display: swap;
   src: url(/assets/fonts/Alegreya/Alegreya-Bold.ttf) format('truetype');
 }
+
+@font-face {
+  font-family: 'Noto Sans Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(/assets/fonts/NotoSansMono/NotoSansMono-Regular.ttf) format('truetype');
+}

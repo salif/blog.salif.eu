@@ -1,8 +1,28 @@
 /* Overwrite simple.css colours with Mastodon colours */
 :root {
-  --sans-font: -apple-system, BlinkMacSystemFont, "Noto Sans", "Ubuntu", sans-serif;
+  --sans-font: "Noto Sans", -apple-system, BlinkMacSystemFont, sans-serif;
   --serif-font: 'Alegreya', serif;
+  --mono-font: "Noto Sans Mono", Consolas, monospace;
   --dark-red: #951818;
+}
+
+/* Override Simple.css Dark theme */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #282d37;
+    --accent-bg: #1F232B;
+    --text: #d9e1e8;
+    --text-light: #9baec8;
+    --border: #9baec8;
+    --accent: #858AFA;
+    --code: #F06292;
+    --preformatted: #9baec8;
+    --marked: #79b9e7;
+    --disabled: #282d37;
+  }
+  img, video {
+    opacity: 1;
+  }
 }
 
 header, main, footer {
@@ -24,23 +44,12 @@ footer {
   font-weight: 500;
 }
 
-/* Override Simple.css Dark theme */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #282d37;
-    --accent-bg: #1F232B;
-    --text: #d9e1e8;
-    --text-light: #9baec8;
-    --border: #9baec8;
-    --accent: #858AFA;
-    --code: #F06292;
-    --preformatted: #9baec8;
-    --marked: #79b9e7;
-    --disabled: #282d37;
-  }
-  img, video {
-    opacity: 1;
-  }
+code,
+pre,
+pre span,
+kbd,
+samp {
+  font-size: 0.95rem;
 }
 
 main img {
