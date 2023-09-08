@@ -1,5 +1,5 @@
 ---
-title: Контакт | Блогът на Салиф
+title: Контакт
 description: За контакт с мен
 permalink: /контакт/
 layout: default

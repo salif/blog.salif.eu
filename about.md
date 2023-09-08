@@ -1,5 +1,5 @@
 ---
-title: Относно | Блогът на Салиф
+title: Относно
 description: Относно този блог
 permalink: /относно/
 comments: false
