@@ -2,8 +2,8 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-archives
 
-author: main
 title: "Блогът на Салиф"
 description: "Блог за програмиране, изкуствени езици и всичко останало."
 lang: bg
@@ -15,9 +15,21 @@ permalink: /:categories/:title/
 goatcounter_code: "blosaleu"
 translate_code: "blog-salif-eu"
 disqus_code: "blog-salif-eu"
+author:
+  name: Салиф Мехмед
+  email: mail@salif.eu
+  url: https://salif.eu/bg
+  uri: https://salif.eu/bg
 
 feed:
   disable_in_development: true
   posts_limit: 20
   categories:
     - 0
+
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/:name/'

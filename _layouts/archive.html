@@ -1,0 +1,14 @@
+---
+layout: default
+---
+{% assign category = site.data.categories[page.title] %}
+<h1 class="post-title">Категория „{{ category.title }}“</h1>
+{% for post in page.posts %}
+  <p class="blog-item"><b><a href="{{ post.url | relative_url }}">{{ post.title }}</a></b><br />
+  <span class="post-description">{{ post.description }}</span><br />
+  <span class="post-meta">{{ post.date | date: "%d.%m.%Y" }}</span></p>
+{% endfor %}
+
+<h3>RSS (Atom) за категорията:</h3>
+
+<pre><code>{{ site.baseurl | prepend: site.url }}/feed/{{ page.title }}.xml</code></pre>

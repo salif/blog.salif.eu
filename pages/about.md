@@ -11,12 +11,11 @@ layout: default
 
 Блогът функционира благодарение на [GitHub Pages](https://pages.github.com/), [Jekyll](https://jekyllrb.com) и [Simple.css](https://simplecss.org).
 
-Изходният код е достъпен на следния адрес: [github.com/salif/blog.salif.eu](https://github.com/salif/blog.salif.eu). Написан е на Markdown и HTML.
+Програмният код е достъпен на следния адрес: [github.com/salif/blog.salif.eu](https://github.com/salif/blog.salif.eu). Написан е на Markdown и HTML.
 Използва CSS, JavaScript и шрифтовете Alegreya и Noto Sans Mono, поддържа светла и тъмна тема, темата следва настройките на браузъра. 
 Блогът е направен на основата на [hub.fosstodon.org](https://hub.fosstodon.org/).
 
 За брояч на посещенията използвам [GoatCounter](https://blosaleu.goatcounter.com/), а за коментарите [Disqus](https://disqus.com/home/forums/blog-salif-eu/?l=bg).
-
 Изображенията в публикациите ще качвам в [postimages.org](https://postimages.org) или [cubeupload.com](https://cubeupload.com/).
 
 Има възможност за [абониране](/абониране) за нови публикации.
