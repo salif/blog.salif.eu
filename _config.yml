@@ -5,7 +5,7 @@ plugins:
   - jekyll-archives
 
 title: "Блогът на Салиф"
-description: "Блог за програмиране, изкуствени езици и всичко останало."
+description: "Блог за програмиране, изкуствени езици и всичко останало. #nobridge"
 lang: bg
 locale: bg_BG
 url: "https://blog.salif.eu"
