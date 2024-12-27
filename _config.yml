@@ -12,7 +12,7 @@ url: "https://salif.github.io/blog.salif.eu"
 git_web_base: "https://github.com/salif/blog.salif.eu/blob/HEAD/"
 baseurl: ""
 permalink: /:categories/:title/
-goatcounter_code: "blosaleu"
+goatcounter_code: "sgi"
 translate_code: "blog-salif-eu"
 disqus_code: "blog-salif-eu"
 author:
