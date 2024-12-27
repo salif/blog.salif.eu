@@ -8,7 +8,7 @@ title: "Блогът на Салиф"
 description: "Блог за програмиране, изкуствени езици и всичко останало."
 lang: bg
 locale: bg_BG
-url: "https://blog.salif.eu"
+url: "https://salif.github.io/blog.salif.eu"
 git_web_base: "https://github.com/salif/blog.salif.eu/blob/HEAD/"
 baseurl: ""
 permalink: /:categories/:title/

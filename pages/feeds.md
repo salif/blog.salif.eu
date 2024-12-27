@@ -7,8 +7,8 @@ layout: default
 
 Ако желаете да се абонирате за предстоящи публикации в блога, може да го направите чрез RSS/Atom:
 
-* [blog.salif.eu/feed.xml](https://blog.salif.eu/feed.xml)
+* [blog.salif.eu/feed.xml](https://salif.github.io/blog.salif.eu/feed.xml)
 
 ```
-https://blog.salif.eu/feed.xml
+https://salif.github.io/blog.salif.eu/feed.xml
 ```

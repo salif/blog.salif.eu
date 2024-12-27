@@ -1,1 +1,1 @@
-Sitemap: https://blog.salif.eu/sitemap.xml
+Sitemap: https://salif.github.io/blog.salif.eu/sitemap.xml
